@@ -29,8 +29,20 @@ namespace ConsoleApplication1
                 Console.WriteLine("No solution on the interval!");
                 return double.NaN;
             }
-
-            while (Math.Abs(b - a) > eps)
+            if (Math.Abs(f(a)) < eps) // перевіряємо, чи ліва межа не є коренем
+            {
+                Console.WriteLine("x = " + a + " Lich = " + Lich);
+                Console.ReadLine(); // затримка показу повідомлення
+                return a;
+            }
+            else if (Math.Abs(f(b)) < eps) // перевіряємо, чи права межа не є коренем
+            {
+                Console.WriteLine("x = " + b + " Lich = " + Lich);
+                Console.ReadLine(); // затримка показу повідомлення
+                return b;
+            }
+            else
+                while (Math.Abs(b - a) > eps)
             {
                 c = 0.5 * (a + b);
                 Lich++;
@@ -41,7 +53,7 @@ namespace ConsoleApplication1
                     return c;
                 }
 
-                if (f(a) * f(c) < 0)
+                else if (f(a) * f(c) < 0)
                     b = c;
                 else
                     a = c;
@@ -62,9 +74,10 @@ namespace ConsoleApplication1
             if (f(x) * f2p(x, d) < 0)
                 x = a;
 
-            if (f(x) * (2 * x) <= 0)
+            else if (f(x) * f2p(x,d) == 0)
             {
                 Console.WriteLine("Newton method is not guaranteed!");
+                return double.NaN;
             }
 
             for (i = 1; i <= Kmax; i++)
@@ -99,7 +112,7 @@ namespace ConsoleApplication1
                 Console.Write("Enter b: ");
                 b = Convert.ToDouble(Console.ReadLine());
 
-                Console.Write("Enter aAccuracy Eps: ");
+                Console.Write("Enter accuracy Eps: ");
                 eps = Convert.ToDouble(Console.ReadLine());
                 d = eps / 100;
 
