@@ -1,0 +1,10 @@
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\bin\Debug\kp-lab9.1-pekarskyi-33.exe.config
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\bin\Debug\kp-lab9.1-pekarskyi-33.exe
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\bin\Debug\kp-lab9.1-pekarskyi-33.pdb
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\obj\Debug\kp-lab9.1-pekarskyi-33.csproj.AssemblyReference.cache
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\obj\Debug\kp_lab9._1_pekarskyi_33.Form1.resources
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\obj\Debug\kp_lab9._1_pekarskyi_33.Properties.Resources.resources
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\obj\Debug\kp-lab9.1-pekarskyi-33.csproj.GenerateResource.cache
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\obj\Debug\kp-lab9.1-pekarskyi-33.csproj.CoreCompileInputs.cache
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\obj\Debug\kp-lab9.1-pekarskyi-33.exe
+C:\Users\yanpe\Downloads\projects\kp\kp-lab9.1-pekarskyi-33\obj\Debug\kp-lab9.1-pekarskyi-33.pdb
